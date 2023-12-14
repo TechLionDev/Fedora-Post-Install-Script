@@ -57,3 +57,9 @@ dnf check-update
 sudo dnf install code # or code-insiders
 
 # Install Node.js
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+source ~/.bashrc
+nvm install node
+node --version
+sudo npm install -g yarn
+yarn --version
